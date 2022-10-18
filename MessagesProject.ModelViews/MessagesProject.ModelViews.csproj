@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meassages.Common\MessagesProject.Common.csproj" />
+    <ProjectReference Include="..\MessagesProject.DbModel\MessagesProject.DbModel.csproj" />
+  </ItemGroup>
+
+</Project>
